@@ -8,6 +8,35 @@ body {
   height: 100%;
   width: 100%;
 }
+@font-face {
+  font-family: "domain";
+  src: url("path/to/domain.woff2") format("woff2"),
+    url("path/to/domain.woff") format("woff"),
+    url("path/to/domain.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "editorial";
+  src: url("path/to/editorial.woff2") format("woff2"),
+    url("path/to/editorial.woff") format("woff"),
+    url("path/to/editorial.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "canopee";
+  src: url("path/to/canopee.woff2") format("woff2"),
+    url("path/to/canopee.woff") format("woff"),
+    url("path/to/canopee.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
 #page1 {
   min-height: 100vh;
   width: 100vw;
@@ -91,13 +120,13 @@ body {
   font-size: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: canopee;
+  font-family: canopee, serif;
 }
 #elem3 h4 {
   font-size: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: canopee;
+  font-family: canopee, serif;
 }
 #elem3 h4 span,
 #elem1 h4 span {
@@ -116,13 +145,13 @@ body {
   font-size: 18px;
 }
 #elem2 h2 {
-  font-family: canopee;
+  font-family: canopee, serif;
   font-size: 75px;
   font-weight: 100;
 }
 
 #elem2 h3 {
-  font-family: domain;
+  font-family: domain, sans-serif;
   font-size: 50px;
   /* background-color: red; */
   color: #2f2f2f;
@@ -131,7 +160,7 @@ body {
 }
 
 #elem2 h6 {
-  font-family: domain;
+  font-family: domain, sans-serif;
   font-size: 20px;
   /* background-color: red; */
   color: #2f2f2f;
@@ -171,7 +200,7 @@ body {
   font-size: 315px;
   letter-spacing: -25px;
   font-weight: 100;
-  font-family: canopee;
+  font-family: canopee, serif;
   background-color: #1c1c19;
   color: #c4bcb3;
   line-height: 278px;
@@ -199,7 +228,7 @@ body {
 
 #page2-left h2 {
   font-size: 120px;
-  font-family: canopee;
+  font-family: canopee, serif;
   line-height: 150px;
   font-weight: 100;
 }
@@ -217,7 +246,7 @@ body {
 
 #page2-left p {
   font-size: 25px;
-  font-family: domain;
+  font-family: domain, sans-serif;
   color: #2f2f2f;
   margin-top: 20px;
 }
@@ -244,7 +273,7 @@ body {
 }
 
 #page2-right h1 {
-  font-family: canopee;
+  font-family: canopee, serif;
   font-size: 140px;
   font-weight: 100;
   letter-spacing: -1px;
@@ -260,7 +289,7 @@ body {
 
 #page3 h1 {
   font-size: 400px;
-  font-family: canopee;
+  font-family: canopee, serif;
   background-color: #1c1c19;
   color: #c4bcb3;
   font-weight: 100;
@@ -314,7 +343,7 @@ body {
 
 #page4-right p {
   font-size: 34px;
-  font-family: domain;
+  font-family: domain, sans-serif;
   font-weight: 100;
   color: #2f2f2f;
   margin-bottom: 150px;
@@ -339,7 +368,7 @@ body {
 #anda h1 {
   font-size: 80px;
   font-weight: 100;
-  font-family: canopee;
+  font-family: canopee, serif;
   width: 100%;
   height: 100%;
   /* background-color: red; */
@@ -373,13 +402,13 @@ body {
   justify-content: space-around;
 }
 #elem-mid2 h2 {
-  font-family: canopee;
+  font-family: canopee, serif;
   font-size: 35px;
   font-weight: 100;
 }
 
 #elem-mid2 h3 {
-  font-family: domain;
+  font-family: domain, sans-serif;
   font-size: 20px;
   /* background-color: red; */
   color: #2f2f2f;
@@ -388,7 +417,7 @@ body {
 }
 
 #elem-mid2 h6 {
-  font-family: domain;
+  font-family: domain, sans-serif;
   font-size: 10px;
   /* background-color: red; */
   color: #2f2f2f;
@@ -415,7 +444,7 @@ body {
   font-size: 20px;
   margin-top: 8px;
   margin-bottom: 20px;
-  font-family: canopee;
+  font-family: canopee, serif;
 }
 #elem-mid1 span {
   background-color: orangered;
@@ -427,7 +456,7 @@ body {
   font-weight: 500;
 }
 #elem-mid1 > p {
-  font-family: editorial;
+  font-family: editorial, sans-serif;
   font-weight: 500;
   font-size: 15px;
   margin-top: -20px;
@@ -460,7 +489,7 @@ body {
 
 #page5 h1 {
   font-size: 100px;
-  font-family: domain;
+  font-family: domain, sans-serif;
   font-weight: 100;
   display: inline-block;
   /* background-color: red; */
@@ -472,7 +501,7 @@ body {
 }
 
 #page5 h1 span {
-  font-family: canopee;
+  font-family: canopee, serif;
   background-color: #1b1b1b;
   color: #c4bcb3;
   padding: 0 12px;
