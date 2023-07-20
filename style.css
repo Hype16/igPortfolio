@@ -10,18 +10,16 @@ body {
 }
 @font-face {
   font-family: "domain";
-  src: url("path/to/domain.woff2") format("woff2"),
-    url("path/to/domain.woff") format("woff"),
-    url("path/to/domain.ttf") format("truetype");
+  src: url("dimensionalResources/domain.woff2") format("woff2"),
+    url("dimensionalResources/domain.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "editorial";
-  src: url("path/to/editorial.woff2") format("woff2"),
-    url("path/to/editorial.woff") format("woff"),
-    url("path/to/editorial.ttf") format("truetype");
+  src: url("dimensionalResources/editorial.woff2") format("woff2"),
+    url("dimensionalResources/editorial.woff2") format("truetype");
 
   font-weight: normal;
   font-style: normal;
@@ -29,9 +27,8 @@ body {
 
 @font-face {
   font-family: "canopee";
-  src: url("path/to/canopee.woff2") format("woff2"),
-    url("path/to/canopee.woff") format("woff"),
-    url("path/to/canopee.ttf") format("truetype");
+  src: url("dimensionalResources/canopee.woff2") format("woff2"),
+    url("dimensionalResources/canopee.ttf") format("truetype");
 
   font-weight: normal;
   font-style: normal;
